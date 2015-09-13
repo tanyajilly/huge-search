@@ -15,9 +15,10 @@ body {
 	color:#c2c2c2;
 	font:14px/1.2 Arial, sans-serif;
 	background: #f1f1f1;
+	font-weight: 300;
 }
 main {
-	width:1075px;
+	max-width:1075px;
 	padding:20px 10px;
 }
 a {
@@ -27,7 +28,7 @@ a {
 	padding:40px 0 60px;
 }
 .ba-search-form input[type="search"] {
-	width:920px;
+	width:87.2%;
 	background: none;
 	border: none;
 	padding: 0;
@@ -54,8 +55,8 @@ a {
 .ba-search-item-list .ba-column {
 	display: inline-block;
 	vertical-align: top;
-	width:317px;
-	margin-right: 52px;
+	width:30%;
+	margin-right: 5%;
 	letter-spacing: 0;
 }
 .ba-search-item-list .ba-column:last-child {margin: 0;}
@@ -74,7 +75,7 @@ a {
 }
 .ba-search-item-list li > a {
 	display: block;
-	padding: 12px 10px;
+	padding: 12px 10px 12px 74px;
 	background-color:rgba(118,117,128,0.05);
 	border-radius: 5px;
 	color:#b1b1b1;
@@ -86,10 +87,10 @@ a {
 .ba-search-item-list li img {
 	display: inline-block;
 	vertical-align: middle;
-	margin-right: 10px;
+	margin: 0 10px 0 -64px;
 }
 .ba-search-item-list li h3 {
-	width:230px;
+	width:100%;
 	display: inline-block;
 	vertical-align: middle;
 	margin: 0;
