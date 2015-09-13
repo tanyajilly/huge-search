@@ -6,3 +6,93 @@ button{
 	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
+::-webkit-input-placeholder {color:#c2c2c2;}
+::-moz-placeholder {opacity: 1; color:#c2c2c2;}
+:-moz-placeholder {color:#c2c2c2;}
+:-ms-input-placeholder {color:#c2c2c2;}
+
+body {
+	color:#c2c2c2;
+	font:14px/1.2 Arial, sans-serif;
+	background: #f1f1f1;
+}
+main {
+	width:1075px;
+	padding:20px 10px;
+}
+a {
+	text-decoration: none;
+}
+.ba-search-form {
+	padding:40px 0 60px;
+}
+.ba-search-form input[type="search"] {
+	width:920px;
+	background: none;
+	border: none;
+	padding: 0;
+	font-size: 112px;
+	font-weight: bold;
+	line-height: 132px;
+	vertical-align: middle;
+	outline:none;
+	color:#ec5a62;
+}
+.ba-search-form input[type="search"]:-ms-input-placeholder {color:#c2c2c2;}
+.ba-search-form input[type="submit"] {
+	width:80px;
+	height:80px;
+	background: url("../images/magnifier.svg") no-repeat;
+	border: none;
+	padding: 0;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+.ba-search-item-list {
+	letter-spacing:-4px;
+}
+.ba-search-item-list .ba-column {
+	display: inline-block;
+	vertical-align: top;
+	width:317px;
+	margin-right: 52px;
+	letter-spacing: 0;
+}
+.ba-search-item-list .ba-column:last-child {margin: 0;}
+.ba-search-item-list h2 {
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 0 0 22px;
+}
+.ba-search-item-list ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ba-search-item-list li {
+	margin-bottom: 5px;
+}
+.ba-search-item-list li > a {
+	display: block;
+	padding: 12px 10px;
+	background-color:rgba(118,117,128,0.05);
+	border-radius: 5px;
+	color:#b1b1b1;
+}
+.ba-search-item-list li > a:hover {
+	color:#ec5a62;
+	background-color: rgba(118,117,128,0.1);
+}
+.ba-search-item-list li img {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 10px;
+}
+.ba-search-item-list li h3 {
+	width:230px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+	font-size: 14px;
+	line-height: 15px;
+}
